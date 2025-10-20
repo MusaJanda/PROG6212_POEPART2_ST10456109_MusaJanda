@@ -108,3 +108,17 @@ This project was developed using **ASP.NET Core MVC** with **Entity Framework Co
 
 ** Lecturer Submits → Programme Coordinator Reviews → Approve/Reject
 → Academic Manager Final Review → Final Approval/Rejection
+
+
+## Database Management
+
+The application uses Entity Framework Core to manage the database schema and data, with a clear separation of models for:
+- **Claims** (with enhanced fields: Department, Hours, Rate, Total Amount)
+- **Documents** (secure storage with modification restrictions)
+- **Lecturers** (with departmental associations)
+- **User Roles & Profiles** (ASP.NET Identity integration)
+- **Departments** (departmental structure management)
+
+**Version:** 2.0  
+**Last Updated:** 20 October 2025  
+**Developer:** Musa Janda (ST10456109)
