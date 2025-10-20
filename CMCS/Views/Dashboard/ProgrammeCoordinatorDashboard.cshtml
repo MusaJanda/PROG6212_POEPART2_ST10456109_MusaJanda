@@ -1,0 +1,144 @@
+﻿@model List<CMCS.Models.Claim>
+
+@{
+    ViewData["Title"] = "Coordinator Dashboard";
+    var pendingClaims = Model?.Where(c => c.Status == ClaimStatus.Pending).ToList() ?? new List<CMCS.Models.Claim>();
+    var returnedClaims = Model?.Where(c => c.Status == ClaimStatus.ReturnedToCoordinator).ToList() ?? new List<CMCS.Models.Claim>();
+}
+
+<div class="container mt-4">
+    <!-- Returned Claims Section (show first) -->
+    @if (returnedClaims.Any())
+    {
+        <div class="card shadow-sm mb-4 border-warning">
+            <div class="card-header bg-warning text-dark">
+                <h5 class="card-title mb-0">
+                    <i class="bi bi-arrow-left-circle"></i> Claims Returned for Revision
+                    <span class="badge bg-dark ms-2">@returnedClaims.Count</span>
+                </h5>
+            </div>
+            <div class="card-body">
+                <div class="alert alert-warning">
+                    <i class="bi bi-exclamation-triangle"></i>
+                    These claims were returned by Academic Managers and require your attention.
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead class="table-warning">
+                            <tr>
+                                <th>Lecturer</th>
+                                <th>Claim Date</th>
+                                <th>Total Amount</th>
+                                <th>Manager Notes</th>
+                                <th>Returned Date</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var claim in returnedClaims)
+                            {
+                                <tr>
+                                    <td>
+                                        <strong>@claim.Lecturer?.FirstName @claim.Lecturer?.LastName</strong>
+                                        <br>
+                                        <small class="text-muted">@claim.Lecturer?.Email</small>
+                                    </td>
+                                    <td>@claim.ClaimDate.ToString("dd MMM yyyy")</td>
+                                    <td>R @((claim.HoursWorked * claim.HourlyRate).ToString("F2"))</td>
+                                    <td>
+                                        @if (!string.IsNullOrEmpty(claim.ManagerNotes))
+                                        {
+                                            <span class="text-muted">@(claim.ManagerNotes.Length > 50 ? claim.ManagerNotes.Substring(0, 50) + "..." : claim.ManagerNotes)</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted">No notes provided</span>
+                                        }
+                                    </td>
+                                    <td>@claim.ManagerApprovalDate?.ToString("dd MMM yyyy HH:mm")</td>
+                                    <td>
+                                        <a asp-controller="Claim" asp-action="Review" asp-route-id="@claim.ClaimId"
+                                           class="btn btn-warning btn-sm">
+                                            <i class="bi bi-arrow-clockwise"></i> Review Again
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    }
+
+    <!-- Pending Claims Section -->
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+            <h5 class="card-title mb-0">
+                <i class="bi bi-person-check"></i> New Claims Awaiting Approval
+            </h5>
+            <span class="badge bg-light text-dark fs-6">@pendingClaims.Count Pending</span>
+        </div>
+        <div class="card-body">
+            @if (pendingClaims.Any())
+            {
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Lecturer</th>
+                                <th>Claim Date</th>
+                                <th>Hours</th>
+                                <th>Total Amount</th>
+                                <th>Submitted</th>
+                                <th>Documents</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var claim in pendingClaims)
+                            {
+                                <tr>
+                                    <td>
+                                        <strong>@claim.Lecturer?.FirstName @claim.Lecturer?.LastName</strong>
+                                        <br>
+                                        <small class="text-muted">@claim.Lecturer?.Email</small>
+                                    </td>
+                                    <td>@claim.ClaimDate.ToString("dd MMM yyyy")</td>
+                                    <td>@claim.HoursWorked.ToString("F2")</td>
+                                    <td>R @((claim.HoursWorked * claim.HourlyRate).ToString("F2"))</td>
+                                    <td>@claim.CreatedDate.ToString("dd MMM yyyy")</td>
+                                    <td>
+                                        @if (claim.Documents != null && claim.Documents.Any())
+                                        {
+                                            <span class="badge bg-success">@claim.Documents.Count files</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-secondary">No files</span>
+                                        }
+                                    </td>
+                                    <td>
+                                        <a asp-controller="Claim" asp-action="Review" asp-route-id="@claim.ClaimId"
+                                           class="btn btn-primary btn-sm">
+                                            <i class="bi bi-eye"></i> Review
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <div class="text-center py-4">
+                    <i class="bi bi-check-circle display-1 text-success"></i>
+                    <h3 class="text-success mt-3">All Caught Up!</h3>
+                    <p class="text-muted">There are no new pending claims requiring your approval.</p>
+                </div>
+            }
+        </div>
+    </div>
+</div>

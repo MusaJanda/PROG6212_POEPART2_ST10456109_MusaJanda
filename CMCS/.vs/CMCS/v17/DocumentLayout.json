@@ -1,0 +1,964 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\views\\claim\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:views\\claim\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{145613D5-76E4-49B7-AF32-E110934A05BA}|..\\CMCS.Tests\\CMCS.Tests.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs.tests\\modelvalidationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{145613D5-76E4-49B7-AF32-E110934A05BA}|..\\CMCS.Tests\\CMCS.Tests.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs.tests\\controllers\\claimcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{145613D5-76E4-49B7-AF32-E110934A05BA}|..\\CMCS.Tests\\CMCS.Tests.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs.tests\\controllers\\dashboardcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{145613D5-76E4-49B7-AF32-E110934A05BA}|..\\CMCS.Tests\\CMCS.Tests.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs.tests\\controllers\\admincontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{145613D5-76E4-49B7-AF32-E110934A05BA}|..\\CMCS.Tests\\CMCS.Tests.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\models\\viewmodel\\createclaimviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:models\\viewmodel\\createclaimviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\views\\claim\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:views\\claim\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\views\\dashboard\\academicmanagerdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:views\\dashboard\\academicmanagerdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\views\\dashboard\\programmecoordinatordashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:views\\dashboard\\programmecoordinatordashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\views\\claim\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:views\\claim\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\views\\claim\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:views\\claim\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\views\\claim\\myclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:views\\claim\\myclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\views\\dashboard\\lecturerdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:views\\dashboard\\lecturerdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\views\\claim\\approve.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:views\\claim\\approve.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\views\\admin\\manageuserroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:views\\admin\\manageuserroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\views\\dashboard\\unauthorized.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:views\\dashboard\\unauthorized.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\models\\programmecoordinator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:models\\programmecoordinator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\models\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:models\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\data\\migrations\\20251014042619_migration2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:data\\migrations\\20251014042619_migration2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\data\\migrations\\20251014034519_migration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:data\\migrations\\20251014034519_migration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\models\\academicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:models\\academicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\models\\viewmodel\\manageuserrolesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:models\\viewmodel\\manageuserrolesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\data\\migrations\\20250912103650_janda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:data\\migrations\\20250912103650_janda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\data\\migrations\\20250820141039_addnewrolesandclaims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:data\\migrations\\20250820141039_addnewrolesandclaims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\data\\migrations\\20250820131359_musa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:data\\migrations\\20250820131359_musa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\data\\migrations\\20250820124655_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:data\\migrations\\20250820124655_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\data\\migrations\\20250820130538_secondmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:data\\migrations\\20250820130538_secondmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lab_services_student\\Documents\\Group\\CMCS\\Data\\Migrations\\20250820140611_Janda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\data\\migrations\\20250820142542_five.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:data\\migrations\\20250820142542_five.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\data\\migrations\\20250820142022_jaymigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:data\\migrations\\20250820142022_jaymigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\data\\migrations\\20250820195557_addlecturertouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:data\\migrations\\20250820195557_addlecturertouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\data\\migrations\\20250820200853_msero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:data\\migrations\\20250820200853_msero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\data\\migrations\\20250820200136_addidentityroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:data\\migrations\\20250820200136_addidentityroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\data\\migrations\\20250916060517_addcoordinatorandmanagertables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:data\\migrations\\20250916060517_addcoordinatorandmanagertables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\data\\migrations\\20250916091707_adddocumentstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:data\\migrations\\20250916091707_adddocumentstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\data\\migrations\\20251014155046_addapprovaldates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:data\\migrations\\20251014155046_addapprovaldates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\data\\migrations\\20251014153052_migration4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:data\\migrations\\20251014153052_migration4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\data\\migrations\\20251016110105_migration5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:data\\migrations\\20251016110105_migration5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212_poepart1_st10456109_musajanda\\cmcs\\data\\migrations\\20251016111607_migration6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76097110-03B8-4CE3-BCCA-43EB9D2750AD}|CMCS.csproj|solutionrelative:data\\migrations\\20251016111607_migration6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Claim\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Claim\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Claim\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Claim\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-20T10:44:15.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS.Tests\\Controllers\\AdminControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\CMCS.Tests\\Controllers\\AdminControllerTests.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS.Tests\\Controllers\\AdminControllerTests.cs",
+              "RelativeToolTip": "..\\CMCS.Tests\\Controllers\\AdminControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T13:54:55.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClaimControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS.Tests\\Controllers\\ClaimControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\CMCS.Tests\\Controllers\\ClaimControllerTests.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS.Tests\\Controllers\\ClaimControllerTests.cs",
+              "RelativeToolTip": "..\\CMCS.Tests\\Controllers\\ClaimControllerTests.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAqwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T13:52:21.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClaimController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Controllers\\ClaimController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClaimController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Controllers\\ClaimController.cs",
+              "RelativeToolTip": "Controllers\\ClaimController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T04:02:51.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModelValidationTests.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS.Tests\\ModelValidationTests.cs",
+              "RelativeDocumentMoniker": "..\\CMCS.Tests\\ModelValidationTests.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS.Tests\\ModelValidationTests.cs",
+              "RelativeToolTip": "..\\CMCS.Tests\\ModelValidationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T13:56:42.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashboardControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS.Tests\\Controllers\\DashboardControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\CMCS.Tests\\Controllers\\DashboardControllerTests.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS.Tests\\Controllers\\DashboardControllerTests.cs",
+              "RelativeToolTip": "..\\CMCS.Tests\\Controllers\\DashboardControllerTests.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T13:54:09.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateClaimViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Models\\ViewModel\\CreateClaimViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\CreateClaimViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Models\\ViewModel\\CreateClaimViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModel\\CreateClaimViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:26:59.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Claim.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Models\\Claim.cs",
+              "RelativeDocumentMoniker": "Models\\Claim.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Models\\Claim.cs",
+              "RelativeToolTip": "Models\\Claim.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwDYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T13:44:18.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\CMCS.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "..\\CMCS.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T13:47:06.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Review.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Claim\\Review.cshtml",
+              "RelativeDocumentMoniker": "Views\\Claim\\Review.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Claim\\Review.cshtml",
+              "RelativeToolTip": "Views\\Claim\\Review.cshtml",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAcwOcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T15:44:34.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Claim\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Claim\\Details.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Claim\\Details.cshtml",
+              "RelativeToolTip": "Views\\Claim\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T16:13:29.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwDUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T13:48:36.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-21T09:37:54.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T12:32:05.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAiwFEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T19:54:21.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProgrammeCoordinatorDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Dashboard\\ProgrammeCoordinatorDashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\ProgrammeCoordinatorDashboard.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Dashboard\\ProgrammeCoordinatorDashboard.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\ProgrammeCoordinatorDashboard.cshtml",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAcwHYAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T13:53:10.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AcademicManagerDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Dashboard\\AcademicManagerDashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\AcademicManagerDashboard.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Dashboard\\AcademicManagerDashboard.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\AcademicManagerDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T13:55:58.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwFAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T09:32:37.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20251016110105_migration5.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20251016110105_migration5.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20251016110105_migration5.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20251016110105_migration5.cs",
+              "RelativeToolTip": "Data\\Migrations\\20251016110105_migration5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T11:01:06.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "20251016111607_migration6.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20251016111607_migration6.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20251016111607_migration6.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20251016111607_migration6.cs",
+              "RelativeToolTip": "Data\\Migrations\\20251016111607_migration6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T11:16:07.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Claim\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Claim\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Claim\\Create.cshtml",
+              "RelativeToolTip": "Views\\Claim\\Create.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAIBJwFIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T14:19:46.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MyClaims.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Claim\\MyClaims.cshtml",
+              "RelativeDocumentMoniker": "Views\\Claim\\MyClaims.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Claim\\MyClaims.cshtml",
+              "RelativeToolTip": "Views\\Claim\\MyClaims.cshtml",
+              "ViewState": "AgIAAFYAAAAAAAAAAAASwG4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T14:54:53.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LecturerDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Dashboard\\LecturerDashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\LecturerDashboard.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Dashboard\\LecturerDashboard.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\LecturerDashboard.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAcwHcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T13:51:15.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20251014155046_AddApprovalDates.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20251014155046_AddApprovalDates.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20251014155046_AddApprovalDates.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20251014155046_AddApprovalDates.cs",
+              "RelativeToolTip": "Data\\Migrations\\20251014155046_AddApprovalDates.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:50:46.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "20251014153052_migration4.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20251014153052_migration4.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20251014153052_migration4.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20251014153052_migration4.cs",
+              "RelativeToolTip": "Data\\Migrations\\20251014153052_migration4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:30:52.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T12:41:08.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ManageUserRoles.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Admin\\ManageUserRoles.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ManageUserRoles.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Admin\\ManageUserRoles.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ManageUserRoles.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-21T09:40:50.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Approve.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Claim\\Approve.cshtml",
+              "RelativeDocumentMoniker": "Views\\Claim\\Approve.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Claim\\Approve.cshtml",
+              "RelativeToolTip": "Views\\Claim\\Approve.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwD4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T14:47:36.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwEsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T12:35:25.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Unauthorized.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Dashboard\\Unauthorized.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\Unauthorized.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Dashboard\\Unauthorized.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\Unauthorized.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T06:48:44.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProgrammeCoordinator.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Models\\ProgrammeCoordinator.cs",
+              "RelativeDocumentMoniker": "Models\\ProgrammeCoordinator.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Models\\ProgrammeCoordinator.cs",
+              "RelativeToolTip": "Models\\ProgrammeCoordinator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T13:40:29.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Lecturer.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Models\\Lecturer.cs",
+              "RelativeDocumentMoniker": "Models\\Lecturer.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Models\\Lecturer.cs",
+              "RelativeToolTip": "Models\\Lecturer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T13:38:25.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T12:44:45.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20251014042619_Migration2.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20251014042619_Migration2.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20251014042619_Migration2.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20251014042619_Migration2.cs",
+              "RelativeToolTip": "Data\\Migrations\\20251014042619_Migration2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T04:26:20.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAOsAAAAAAAAAAADwv/kAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T10:35:09.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20251014034519_Migration1.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20251014034519_Migration1.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20251014034519_Migration1.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20251014034519_Migration1.cs",
+              "RelativeToolTip": "Data\\Migrations\\20251014034519_Migration1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T03:45:19.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-20T12:39:37.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "Models\\UserRole.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Models\\UserRole.cs",
+              "RelativeToolTip": "Models\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T13:36:02.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T20:57:26.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T06:53:18.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T15:53:06.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20250916091707_AddDocumentsTable.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250916091707_AddDocumentsTable.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250916091707_AddDocumentsTable.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250916091707_AddDocumentsTable.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250916091707_AddDocumentsTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T09:17:08.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T12:54:14.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Document.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Models\\Document.cs",
+              "RelativeDocumentMoniker": "Models\\Document.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Models\\Document.cs",
+              "RelativeToolTip": "Models\\Document.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T09:11:28.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AcademicManager.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Models\\AcademicManager.cs",
+              "RelativeDocumentMoniker": "Models\\AcademicManager.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Models\\AcademicManager.cs",
+              "RelativeToolTip": "Models\\AcademicManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T13:41:24.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20250916060517_AddCoordinatorAndManagerTables.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250916060517_AddCoordinatorAndManagerTables.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250916060517_AddCoordinatorAndManagerTables.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250916060517_AddCoordinatorAndManagerTables.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250916060517_AddCoordinatorAndManagerTables.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T06:05:17.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ManageUserRolesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Models\\ViewModel\\ManageUserRolesViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\ManageUserRolesViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Models\\ViewModel\\ManageUserRolesViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModel\\ManageUserRolesViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T09:29:56.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20250912103650_Janda.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250912103650_Janda.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250912103650_Janda.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250912103650_Janda.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250912103650_Janda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T10:36:50.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20250820195557_AddLecturerToUser.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250820195557_AddLecturerToUser.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250820195557_AddLecturerToUser.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250820195557_AddLecturerToUser.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250820195557_AddLecturerToUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T19:55:58.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20250820200853_Msero.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250820200853_Msero.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250820200853_Msero.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250820200853_Msero.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250820200853_Msero.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T20:08:53.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20250820200136_AddIdentityRoles.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250820200136_AddIdentityRoles.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250820200136_AddIdentityRoles.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250820200136_AddIdentityRoles.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250820200136_AddIdentityRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T20:01:36.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20250820131359_Musa.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250820131359_Musa.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250820131359_Musa.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250820131359_Musa.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250820131359_Musa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T13:13:59.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20250820142542_Five.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250820142542_Five.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250820142542_Five.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250820142542_Five.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250820142542_Five.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T14:25:42.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20250820141039_AddNewRolesAndClaims.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250820141039_AddNewRolesAndClaims.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250820141039_AddNewRolesAndClaims.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250820141039_AddNewRolesAndClaims.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250820141039_AddNewRolesAndClaims.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T14:10:40.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20250820142022_JayMigration.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250820142022_JayMigration.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250820142022_JayMigration.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250820142022_JayMigration.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250820142022_JayMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T14:20:22.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20250820124655_FirstMigration.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250820124655_FirstMigration.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250820124655_FirstMigration.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250820124655_FirstMigration.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250820124655_FirstMigration.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T12:46:56.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20250820140611_Janda.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Group\\CMCS\\Data\\Migrations\\20250820140611_Janda.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Documents\\Group\\CMCS\\Data\\Migrations\\20250820140611_Janda.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Group\\CMCS\\Data\\Migrations\\20250820140611_Janda.cs",
+              "RelativeToolTip": "..\\..\\..\\Documents\\Group\\CMCS\\Data\\Migrations\\20250820140611_Janda.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T14:06:11.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20250820130538_SecondMigration.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250820130538_SecondMigration.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250820130538_SecondMigration.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\Data\\Migrations\\20250820130538_SecondMigration.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250820130538_SecondMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T13:05:38.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212_POEPART1_ST10456109_MusaJanda\\CMCS\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-08-20T12:44:29.845Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+﻿@model CMCS.Models.Claim
+
+@{
+    ViewData["Title"] = "Claim Details";
+}
+
+<div class="container mt-4">
+    <h1>Claim Details</h1>
+    <hr />
+
+    <dl class="row">
+        <dt class="col-sm-3">Claim ID:</dt>
+        <dd class="col-sm-9">@Model.ClaimId</dd>
+
+        <dt class="col-sm-3">Claim Date:</dt>
+        <dd class="col-sm-9">@Model.ClaimDate.ToShortDateString()</dd>
+
+        <dt class="col-sm-3">Hours Worked:</dt>
+        <dd class="col-sm-9">@Model.HoursWorked</dd>
+
+        <dt class="col-sm-3">Hourly Rate:</dt>
+        <dd class="col-sm-9">@Model.HourlyRate.ToString("C")</dd>
+
+        <dt class="col-sm-3">Total Amount:</dt>
+        <dd class="col-sm-9">@((Model.HoursWorked * Model.HourlyRate).ToString("C"))</dd>
+
+        <dt class="col-sm-3">Description:</dt>
+        <dd class="col-sm-9">@Model.Description</dd>
+
+        <dt class="col-sm-3">Status:</dt>
+        <dd class="col-sm-9">
+            <span class="badge
+                @(Model.Status == ClaimStatus.FullyApproved ? "bg-success" :
+                                    Model.Status == ClaimStatus.Rejected ? "bg-danger" :
+                                    Model.Status == ClaimStatus.ApprovedByCoordinator ? "bg-warning" : "bg-info")">
+                @Model.Status
+            </span>
+        </dd>
+
+        <dt class="col-sm-3">Created Date:</dt>
+        <dd class="col-sm-9">@Model.CreatedDate.ToString("f")</dd>
+    </dl>
+
+    <div class="mt-4">
+        <a asp-action="Index" asp-controller="Dashboard" class="btn btn-secondary">Back to Dashboard</a>
+    </div>
+</div>

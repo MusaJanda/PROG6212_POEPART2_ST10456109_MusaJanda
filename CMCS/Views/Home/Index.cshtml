@@ -1,0 +1,31 @@
+﻿@using CMCS.Models
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <!-- Show a message for logged-in users and a link to their dashboard -->
+        <div class="p-5">
+            <h1 class="display-4">Welcome Back!</h1>
+            <p class="lead">You are logged in. Head to your dashboard to manage your claims.</p>
+            <a asp-controller="Dashboard" asp-action="Index" class="btn btn-primary btn-lg mt-3">Go to Dashboard</a>
+        </div>
+    }
+    else
+    {
+        <!-- Show the public-facing welcome page for unauthenticated users -->
+        <div class="p-5 bg-light border rounded-3">
+            <h1 class="display-4" style="color: green">Welcome to the Contract Monthly Claim System (CMCS)</h1>
+            <p class="lead">Your hub for managing and approving monthly claims.</p>
+            <hr class="my-4">
+            <p>Please log in or register to get started.</p>
+            <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-success btn-lg me-2 mt-3">Login</a>
+            <a asp-area="Identity" asp-page="/Account/Register" class="btn btn-secondary btn-lg mt-3">Register</a>
+        </div>
+    }
+</div>
