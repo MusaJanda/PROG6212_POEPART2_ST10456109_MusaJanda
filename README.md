@@ -20,7 +20,7 @@ This project was developed using **ASP.NET Core MVC** with **Entity Framework Co
     1.  **Lecturer** submits a claim.
     2.  **Programme Coordinator** reviews and approves the claim.
     3.  **Academic Manager** gives the final approval.
-    4.  **Admin** manages user roles and account.
+   
 
 ### Part 2 Enhanced Functionalities 🆕
 
