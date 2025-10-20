@@ -14,7 +14,7 @@ This project was developed using **ASP.NET Core MVC** with **Entity Framework Co
 
 * **Role-Based Dashboards:** Users see a dashboard tailored to their role (Lecturer, Programme Coordinator, or Academic Manager).
 * **Secure Authentication:** Secure user authentication and management are handled by ASP.NET Identity.
-* **Claim Submission:** Lecturers can digitally submit their monthly claims, including hours worked, and attach multiple supporting documents (e.g., payslips, contracts).
+* **Claim Submission:** Lecturers can digitally submit their monthly claims, including hours worked, and attach supporting documents (e.g., claim forms).
 * **Document Management:** The system supports uploading and storing supporting documents related to claims.
 * **Multi-Stage Approval Workflow:** Claims follow a defined workflow:
     1.  **Lecturer** submits a claim.
